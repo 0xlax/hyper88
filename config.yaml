@@ -1,3 +1,36 @@
-baseURL: http://example.org/
+baseURL: https://hyper88.vercel.app/
 languageCode: en-us
-title: My New Hugo Site
+theme: smigle
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: careers
+      name: Careers
+      url: /career/
+      weight: 4
+    - identifier: Contact
+      name: Contact
+      url: /contact/
+      weight: 5
+params:
+  abbrDateFmt: "Jan 2"
+  brandIconFile: "images/brandIcon.svg"
+  dateFmt: "2006-01-02"
+#  customStylesheets: # Use to override theme styles, like logo size
+#    - "css/custom.css"
+  social:
+    - name: GitHub
+      url: https://github.com/hypr-88
+    - name: Twitter
+      url: https://twitter.com/Hyper88_xyz
